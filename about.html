@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Us - Foodie Hunter</title>
+    <style>
+        /* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+h1, h2, h3 {
+    color: #d9534f; /* Dark red for headings */
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+/* Header Section */
+.about-header {
+    position: relative;
+    background: url('header-image.jpg') no-repeat center center/cover;
+    height: 60vh;
+    color: white;
+    text-align: center;
+}
+
+.header-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.6);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.cta-button {
+    background-color: #d9534f;
+    padding: 10px 20px;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+
+/* Story Section */
+.story {
+    padding: 40px;
+    text-align: center;
+}
+
+.story img {
+    width: 100%;
+    max-width: 600px;
+    margin-top: 20px;
+}
+
+/* Values Section */
+.values {
+    padding: 40px;
+    text-align: center;
+}
+
+.value-items {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.value-item {
+    max-width: 200px;
+    text-align: center;
+}
+
+/* Team Section */
+.team {
+    padding: 40px;
+    background-color: #f9f9f9;
+    text-align: center;
+}
+
+.team-members {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.team-member {
+    text-align: center;
+}
+
+.team-member img {
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+}
+
+/* Testimonials Section */
+.testimonials {
+    padding: 40px;
+    text-align: center;
+}
+
+.testimonial-cards {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.testimonial {
+    max-width: 300px;
+    padding: 20px;
+    background-color: #eee;
+    border-radius: 5px;
+    font-style: italic;
+}
+
+/* CTA Section */
+.cta {
+    text-align: center;
+    padding: 40px;
+    background-color: #d9534f;
+    color: white;
+}
+
+    </style>
+</head>
+<body>
+
+    <!-- Header Section -->
+    <header class="about-header">
+        <div class="header-overlay">
+            <h1>Welcome to Foodie Hunter</h1>
+            <p>Where every bite tells a story</p>
+            <a href="index.html" class="cta-button">Explore Our Menu</a>
+        </div>
+    </header>
+
+    <!-- Story Section -->
+    <section class="story">
+        <h2>Our Story</h2>
+        <p>What started as a humble food blog is now a platform to bring foodies together. At Foodie Hunter, our mission is to bring you closer to the world's most delightful flavors.</p>
+        <img src="images/HOTAL.png" alt="Our Story Image">
+    </section>
+
+    <!-- Core Values Section -->
+    <section class="values">
+        <h2>Our Values</h2>
+        <div class="value-items">
+            <div class="value-item">
+                <!-- <img src="quality-icon.png" alt="Quality Icon"> -->
+                <h3>Quality</h3>
+                <p>We bring you the best, freshest ingredients in every dish.</p>
+            </div>
+            <div class="value-item">
+                <!-- <img src="creativity-icon.png" alt="Creativity Icon"> -->
+                <h3>Creativity</h3>
+                <p>Our dishes are made with love and creativity.</p>
+            </div>
+            <div class="value-item">
+                <img src="community-icon.png" alt="Community Icon">
+                <h3>Community</h3>
+                <p>Bringing foodies together to celebrate taste.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Team Section -->
+    <section class="team">
+        <h2>Meet Our Team</h2>
+        <div class="team-members">
+            <div class="team-member">
+                <img src="images/pexels-elletakesphotos-2696064.jpg" alt="Team Member 1">
+                <h3>Chef Alex</h3>
+                <p>Head Chef & Founder</p>
+            </div>
+            <div class="team-member">
+                <img src="images/pexels-reneterp-3217156.jpg" alt="Team Member 2">
+                <h3>Jane Doe</h3>
+                <p>Pastry Chef</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials Section -->
+    <section class="testimonials">
+        <h2>What Our Customers Say</h2>
+        <div class="testimonial-cards">
+            <div class="testimonial">
+                <p>"Foodie Hunter brings joy to every meal. Love their dedication!"</p>
+                <h4>- Emma</h4>
+            </div>
+            <div class="testimonial">
+                <p>"Amazing flavors and friendly service. A top-notch experience!"</p>
+                <h4>- Noah</h4>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA Section -->
+    <section class="cta">
+        <p>Ready to Taste the Difference?</p>
+        <a href="index.html" class="cta-button">Order Now</a>
+    </section>
+
+</body>
+</html>
